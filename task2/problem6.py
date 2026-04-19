@@ -1,0 +1,5 @@
+x = input("Enter a sentence: ")
+y = x.split()
+z = ' '.join(reversed(y))
+print (y)
+print(z)

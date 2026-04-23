@@ -1,0 +1,21 @@
+-rw-r--r-- : means this file owner can read and write while the group and others are only allowed to read 
+
+the executable file is the chmod 755 script.sh as (755) means:
+the owner read , write and execute 
+group & others : can read and execute 
+
+the only accessible is : chmod 600 secret.txt 
+the owner read and write 
+others and group not allowed to do any thing 
+
+file1.txt → 644
+Owner: read + write
+Group: read
+Others: read
+
+secret.txt → 600
+Owner: read + write
+Group: no access
+Others: no access
+
+represent the file accessibility 
